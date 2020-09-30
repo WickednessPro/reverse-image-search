@@ -1,7 +1,7 @@
 const express = require('express')
 const reverseImageSearch = require('node-reverse-image-search')
 const app = express()
-var port = process.env.PORT || 8080
+var port = 8080
 
 app.get('/', (req, res) => {
   res.setHeader('Access-Control-Allow-Origin', '*');
